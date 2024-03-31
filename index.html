@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face Recognition Attendance System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Face Recognition Attendance System</h1>
+      <button id="captureBtn">Capture Image</button>
+      <div id="imageContainer"></div>
+      <form id="attendanceForm">
+        <label for="studentID">Student ID:</label>
+        <input type="text" id="studentID" name="studentID" />
+        <input type="submit" value="Mark Attendance" />
+      </form>
+      <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
